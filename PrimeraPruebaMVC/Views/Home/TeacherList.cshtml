@@ -1,0 +1,24 @@
+@model TeacherModel;
+
+@{
+    ViewData["Title"] = "Listado de Maestros";
+    DateTime fechaInscripcion = new DateTime(2024, 05, 20);
+}
+
+<h2> @DateTime.Now.ToShortDateString() </h2>
+<i>@fechaInscripcion.ToLongDateString()</i>
+
+<div class="text-center">
+<h2 class="display-4">Bienvenidos a mi pagina de maestros</h2>
+</div>
+
+<img src="~/img/maestro.jpeg" alt="maestros" width="300" height="200" align="right" >
+
+<h1 class="display-5">Listado de Maestros</h1>
+<h3 style="font-size: 20px" >@Model.Nombre.ToUpper() Es un maestro de la <b>carrera</b> @Model.Carrera </h3>
+
+
+<label>Esto es una prueba</label>
+<div class="text-center">
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
