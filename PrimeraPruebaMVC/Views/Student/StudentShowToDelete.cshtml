@@ -1,0 +1,13 @@
+@model StudentModel;
+@{
+    ViewData["Title"]="Borrar Estudiante";
+}
+
+<h3 class="mb-3">¿Esta seguro que desea eliminar al estudiante: @Model.Nombre?</h3>
+
+<form asp-controller="Student" asp-action="StudentDelete">
+
+    <button type="submit" class="btn btn-danger">Confirmar</button>
+    <a class="btn btn-secundary" asp-controller="Student" asp-action="StudentList">Regresar</a>
+
+</form>

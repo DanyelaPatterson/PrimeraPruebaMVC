@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\POO2\Parcial_1\PrimeraPruebaMVC\PrimeraPruebaMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Degree/DegreeAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Degree/DegreeEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Degree/DegreeList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Degree/DegreeShowToDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVncmVlXERlZ3JlZVNob3dUb0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,20 +42,52 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Home/StudentList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdHVkZW50TGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Home/TeacherList.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZWFjaGVyTGlzdC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Student/StudentAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50QWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Student/StudentEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50RWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Student/StudentList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Student/StudentShowAndEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50U2hvd0FuZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Student/StudentShowToDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50U2hvd1RvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Teacher/TeacherAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Teacher/TeacherEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Teacher/TeacherList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Teacher/TeacherShowAndEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyU2hvd0FuZEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/Teacher/TeacherShowToDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGVhY2hlclxUZWFjaGVyU2hvd1RvRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/POO2/Parcial_1/PrimeraPruebaMVC/PrimeraPruebaMVC/Views/_ViewImports.cshtml]

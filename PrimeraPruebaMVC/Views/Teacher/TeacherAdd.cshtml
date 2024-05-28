@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"]="Alta de Maestro";
+}
+
+<form asp-controller="Teacher" asp-action="TeacherSave">
+    <div class="mb-3">
+
+        <label for="nombre"  class="form-label"> Nombre</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escriba el nombre del maestro" />
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <button type="submit" class="btn btn-secundary">Cancelar</button>
+
+</form>

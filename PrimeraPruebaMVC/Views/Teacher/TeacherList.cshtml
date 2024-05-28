@@ -1,0 +1,22 @@
+@model TeacherModel;
+
+@{
+    ViewData["Title"] = "Listado de Maestros";
+    DateTime fechaInscripcion = new DateTime(2024, 05, 20);
+}
+
+<div class="text-center">
+    <h2> @DateTime.Now</h2>
+    <i>@fechaInscripcion.ToLongDateString()</i>
+
+
+    <img src="~/img/maestro.jpeg" alt="maestros" width="300" height="200" align="right" >
+
+    <h1 class="display-5">Listado de Maestros</h1>
+    <a asp-controller="Teacher" asp-action="TeacherAdd" class="btn btn-primary mb-3"> Agregar maestro </a>
+
+</div>
+
+
+
+

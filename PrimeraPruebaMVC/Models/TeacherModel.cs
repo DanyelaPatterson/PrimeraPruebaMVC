@@ -6,8 +6,5 @@ namespace PrimeraPruebaMVC.Models
         {
 
         }
-        public string Nombre { get; set; }
-        public string Materia { get; set; }
-        public DateTime FechaContratacion { get; set; }
     }
 }
