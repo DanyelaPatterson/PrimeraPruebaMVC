@@ -12,14 +12,13 @@ namespace PrimeraPruebaMVC.Controllers
             _logger = logger;
         }
 
-        [HttpPost]
         public IActionResult DegreeAdd()
         {
             return View();
         }
 
             [HttpPost]
-        public IActionResult DegreeAdd(DegreeModel degree)
+        public IActionResult DegreeAdd(DegreeModel carrera)
         {
             if (!ModelState.IsValid)
             {

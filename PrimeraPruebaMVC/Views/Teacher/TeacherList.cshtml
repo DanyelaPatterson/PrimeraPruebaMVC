@@ -1,4 +1,4 @@
-@model TeacherModel;
+@model IEnumerable<TeacherModel>;
 
 @{
     ViewData["Title"] = "Listado de Maestros";
@@ -6,6 +6,7 @@
 }
 
 <div class="text-center">
+
     <h2> @DateTime.Now</h2>
     <i>@fechaInscripcion.ToLongDateString()</i>
 
@@ -16,6 +17,53 @@
     <a asp-controller="Teacher" asp-action="TeacherAdd" class="btn btn-primary mb-3"> Agregar maestro </a>
 
 </div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Acciones</th>
+            <th>Nombre</th>
+            <th>Carrera</th>
+            <th>Edad</th>
+            <th>Genero</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach(var maestro in Model)
+        {
+            <tr>
+                <td>
+                    <a class="btn btn-primary" asp-controller="Teacher" asp-action="TeacherEdit"
+                    asp-route-id="@maestro.Id">
+                        Editar
+                    </a>
+
+                    <a class="btn btn-danger" asp-controller="Teacher" asp-action="TeacherShowToDelete"
+                    asp-route-id="@maestro.Id">
+                        Borrar
+                    </a>
+                </td>
+                <td>
+                    @maestro.Nombre
+                </td>
+                <td>
+                    @maestro.Carrera
+                </td>
+                <td>
+                    @maestro.Edad
+                </td>
+                <td>
+                    @maestro.Genero
+                </td>
+            </tr>
+        }
+    </tbody>
+
+    <tfoot>
+
+    </tfoot>
+</table>
 
 
 

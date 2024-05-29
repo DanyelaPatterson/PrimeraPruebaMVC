@@ -11,6 +11,6 @@ namespace PrimeraPruebaMVC.Models
         public string Nombre { get; set; }
         public string Carrera { get; set; }
         public int Edad { get; set; }
-        public string Sexo { get; set; }
+        public string Genero { get; set; }
     }
 }

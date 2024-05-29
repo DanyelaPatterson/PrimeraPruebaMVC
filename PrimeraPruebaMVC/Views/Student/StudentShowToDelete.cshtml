@@ -3,7 +3,9 @@
     ViewData["Title"]="Borrar Estudiante";
 }
 
-<h3 class="mb-3">¿Esta seguro que desea eliminar al estudiante: @Model.Nombre?</h3>
+<div class="mb-3">
+        ¿Esta seguro que desea eliminar al estudiante: @Model.Nombre?
+    </div>
 
 <form asp-controller="Student" asp-action="StudentDelete">
 

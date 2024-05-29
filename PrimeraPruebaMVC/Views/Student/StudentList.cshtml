@@ -26,7 +26,7 @@
             <th>Nombre</th>
             <th>Carrera</th>
             <th>Edad</th>
-            <th>Sexo</th>
+            <th>Genero</th>
         </tr>
     </thead>
 
@@ -35,7 +35,7 @@
         {
             <tr>
                 <td>
-                    <a class="btn btn-primary" asp-controller="Student" asp-action="StudentShowAndEdit"
+                    <a class="btn btn-primary" asp-controller="Student" asp-action="StudentEdit"
                     asp-route-id="@stud.Id">
                         Editar
                     </a>
@@ -58,7 +58,7 @@
                     @stud.Edad
                 </td>
                 <td>
-                    @stud.Sexo
+                    @stud.Genero
                 </td>
             </tr>
         }

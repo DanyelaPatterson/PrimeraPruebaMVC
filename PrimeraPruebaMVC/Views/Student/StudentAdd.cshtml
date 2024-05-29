@@ -1,8 +1,14 @@
+@model StudentModel;
+
 @{
     ViewData["Title"]="Alta de Estudiante";
 }
 
-<form asp-controller="Student" asp-action="StudentSave">
+    <div class="text-center">
+        <h1 class="display-4">Alta de Estudiante</h1>
+    </div>
+
+<form asp-controller="Student" asp-action="StudentAdd">
 
 
     <div class="mb-3">
@@ -26,10 +32,11 @@
     </div>
 
     <div class="mb-3">
-        <label for="sexo"  class="form-label"> Sexo</label>
-        <input type="text" class="form-control" id="sexo" name="sexo" placeholder="Escriba hombre/mujer" />
+        <label for="Genero"  class="form-label"> Genero</label>
+        <input type="text" class="form-control" id="Genero" name="Genero" placeholder="Escriba hombre/mujer" />
     </div>
-
+    
+    <div asp-validation-summary="All" class="Text-danger"></div>
 
     <button type="submit" class="btn btn-primary">Guardar</button>
     <a class="btn btn-secundary" asp-controller="Student" asp-action="StudentList">Regresar</a>
