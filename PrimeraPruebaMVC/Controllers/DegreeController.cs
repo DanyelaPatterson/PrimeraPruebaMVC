@@ -1,15 +1,18 @@
 using Microsoft.AspNetCore.Mvc;
 using PrimeraPruebaMVC.Models;
+using PrimeraPruebaMVC.Entities;
 
 namespace PrimeraPruebaMVC.Controllers
 {
     public class DegreeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<DegreeController> _logger;
+        private readonly ApplicationDbContext _context;
 
-        public DegreeController(ILogger<HomeController> logger)
+        public DegreeController(ApplicationDbContext context, ILogger<DegreeController> logger)
         {
             _logger = logger;
+            _context = context;
         }
 
         public IActionResult DegreeAdd()
@@ -22,12 +25,21 @@ namespace PrimeraPruebaMVC.Controllers
         {
             if (!ModelState.IsValid)
             {
+                _logger.LogWarning(carrera.Nombre);
                 _logger.LogWarning("El modelo no es valido");
                 return View();
             }
             //GUARDAR INFORMACIÓN
 
             _logger.LogInformation("El modelo es valido");
+
+            Degree degreeDB = new Degree();
+            degreeDB.Id = new Guid();
+            degreeDB.Name = carrera.Nombre;
+            degreeDB.CreationDate = DateTime.Today;
+
+            _context.Degrees.Add(degreeDB);
+            _context.SaveChanges();
 
             return Redirect("DegreeList");
         }
